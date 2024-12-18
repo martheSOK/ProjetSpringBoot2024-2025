@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* Styles pour le conteneur du formulaire de connexion */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Titre du formulaire */
+.form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styles pour le formulaire et les champs */
+.login-form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.login-form label {
+    font-size: 14px;
+    color: #666;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Bouton de connexion */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #4cae4c;
+}
+
+/* Styles supplémentaires pour rendre le formulaire plus attrayant */
+.login-container {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
